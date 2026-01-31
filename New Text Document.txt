@@ -1,0 +1,21 @@
+
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import FeaturedProducts from './components/FeaturedProducts';
+import AboutDeveloper from './components/AboutDeveloper';
+import ContactFooter from './components/ContactFooter';
+
+function App() {
+  return (
+    <div className="App">
+      <Navbar />
+      <Hero />
+      <FeaturedProducts />
+      <AboutDeveloper />
+      <ContactFooter />
+    </div>
+  );
+}
+
+export default App;
